@@ -10,6 +10,8 @@ using namespace std;
 class AttendanceManagement
 {
     private:
+    Student student;
+    Course course;
 
     public:
     AttendanceManagement();
