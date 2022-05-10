@@ -30,6 +30,7 @@ void AttendanceManagement::takeAttendance(Student *student, Course *course, stri
 
 void AttendanceManagement::showAttendance()
 {
+<<<<<<< HEAD
     string line;
     ifstream studentsAttendance("StudentAttendanceList.csv");
     if (studentsAttendance.is_open())
@@ -45,5 +46,8 @@ void AttendanceManagement::showAttendance()
 
     else cout << "Unable to open file ";
 
+=======
+    //falta toda esta implementacion todavia
+>>>>>>> 6000502a527cf21572311287b37deebf35fde5d8
 }
 
