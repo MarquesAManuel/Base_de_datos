@@ -18,7 +18,7 @@ void AttendanceManagement::takeAttendance(Student *student, Course *course, stri
     {
         studentsAttendance << "sep=," << endl;
         studentsAttendance << student->getIdentifier() << "," << student->getName() << ","
-        << student->getSurname() << "," << course->getIdentifier() << "," << course->getName() << " , "
+        << student->getSurname() << "," << course->getIdentifier() << "," << course->getName() << ","
         << date << "," << attendance << "," ;
         studentsAttendance << " ";
 
